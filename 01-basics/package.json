@@ -1,0 +1,18 @@
+{
+  "name": "01-basics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc",
+    "phase1": "npm run start:build && node ./dist/custom-test-phase1.js",
+    "phase2": "npm run start:build && node ./dist/custom-test-phase2.js",
+    "phase3": "npm run start:build && node ./dist/custom-test-phase3.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "winston": "^3.13.0"
+  }
+}
