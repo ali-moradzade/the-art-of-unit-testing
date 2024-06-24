@@ -1,4 +1,4 @@
-import * as moment from "moment";
+import moment from "moment";
 import {TimeProviderInterface} from "./time-provider-interface";
 
 export class RealTimeProvider implements TimeProviderInterface {
