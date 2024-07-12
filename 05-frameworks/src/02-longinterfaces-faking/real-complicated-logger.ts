@@ -1,11 +1,11 @@
 import {IComplicatedLogger} from "./interfaces/complicated-logger";
 
 // this real logger might have file or network dependencies
-export class RealComplicatedLogger implements IComplicatedLogger{
+export class RealComplicatedLogger implements IComplicatedLogger {
     debug(text: string, obj: any) {
     }
 
-    error(text: string, location: string, stacktrace: string) {
+    error(text: string, method: string) {
     }
 
     info(text: string) {
