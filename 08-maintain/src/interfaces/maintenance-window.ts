@@ -1,3 +1,3 @@
 export interface MaintenanceWindow {
-    isUnderMaintenance(): boolean
+    isUnderMaintenance(): boolean;
 }

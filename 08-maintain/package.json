@@ -1,0 +1,16 @@
+{
+  "name": "08-maintain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run --reporter verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@fluffy-spoon/substitute": "^1.208.0",
+    "vitest": "^2.0.4"
+  }
+}
